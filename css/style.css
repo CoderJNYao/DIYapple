@@ -2,83 +2,124 @@
 	margin: 0;
 	padding: 0;
 }
-#header{
-	top: 0px;
-	width: 100%;
-	height: 40px;
+html,body{
+	min-width: 1200px;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#main{
+	margin: 0;
+	padding: 0;
+	}
+#top{
 	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+#header{
+	height: 40px;
+	margin: 0 auto;
 	background-color: #444;
-	opacity: 0.8;
-	z-index: 0;
 }
 #advertise{
-	max-width: 976px;
-	font-size: 12px;
-	position: relative;
-	top:12px;
-	color: #a8a8aa;
+	max-width: 1000px;
 	text-align: right;
+	margin: 0 auto;
+	font-size: 12px;
+	line-height: 40px;
+	color: #a8a8aa;
 }
 #nav{
 	width: 100%;
-	height: 40px;
-	position: fixed;
+	height: 44px;
+	margin-bottom: 10px;
 	top:40px;
 	background-color: #000;
-	opacity: 0.8;
-	z-index: 0;
 }
 #nav ul{
 	margin-left: 220px;
-	position: fixed;
 }
 #nav ul li{
 	color: #eee;
-	display: inline-block;
+	list-style: none;
 	vertical-align: middle;
-	width: 110px;
+	width: 108px;
 	text-align: center;
-	position: relative;
-	top:8px;
+	float: left;
+	line-height: 44px;
 	font-family: arial;
 	font-size: 14px;
 }
-#applejpg{
-	position: absolute;
-	width: 32px;
-	height: 28px;
-	margin-top:6px;
-	margin-left: 168px;
-	float: left;
+#nav ul li img{
+	background-repeat: no-repeat;
 }
-#timg{
-	position: absolute;
-	width: 40px;
-	height: 40px;
-	border-radius: 20px;
-	margin-top: 0px;
-	margin-left: 980px;
-	display: inline-block;
+#ins{
+
 }
 #ins a{
  	font-size: 20px;
- 	z-index: -1;
+ 	z-index: 0;
  	display: block;
 }
-.introduction{
-	margin-top: 140px;
-	width: 800px;
-	height: auto;
-	left: 292px;
+.huangou{
+	width: 794px;
+	height: 161px;
 	position: relative;
+	top: 84px;
+	padding-top: 51px;
+	padding-bottom: 52px;
+	margin: 0 auto;
 	text-align: center;
-	z-index: -1;
 }
-.introduction img{
-	width: 620px;
-	height: 434px;
+.huangou a{
+	text-decoration: none;
+}
+.iphone_xr_introduction{
+	background-image: url(../img/iphone_xr.jpg);
 	background-repeat: no-repeat;
-	z-index: -1;
+	background-position: center bottom;
+	width: 794px;
+	height: 569px;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 25px;
+	font-size: 17px;
+}
+
+.iphone_xr_introduction .content{
+	text-align: center;
+	margin: 150px auto 0;
+}
+.iphone_xs_introduction{
+	background-image: url(../img/iphone_xs.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	width: 794px;
+	height: 569px;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 25px;
+	font-size: 17px;
+}
+
+.iphone_xs_introduction .content{
+	text-align: center;
+	margin: 150px auto 0;
+}
+.ipod_air_introduction{
+	background-image: url(../img/ipad_air.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	width: 794px;
+	height: 569px;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 25px;
+	font-size: 17px;
+}
+
+.ipod_air_introduction .content{
+	text-align: center;
+	margin: 150px auto 0;
 }
 #nav ul li a{
 	text-decoration: none;
@@ -88,4 +129,217 @@
 #nav ul li a:hover{
 	text-decoration: none;
 	color: darkgray;
+}
+.product1{
+	width: 100%;
+	text-align: center;
+	z-index: 0;
+}
+.left{
+	width: 50%;
+	height: 580px;
+	padding: 20px 10px 10px 20px;
+	box-sizing: border-box;
+	line-height: 1.5;
+	float: left;
+	z-index: 0;
+}
+.right{
+	width: 50%;
+	height: 580px;
+	padding: 20px 20px 10px 10px;
+	box-sizing: border-box;
+	float: left;
+	line-height: 1.5;
+	z-index: 0;
+}
+.product1 .left .content{
+	background: url(../img/march_event_2019.jpg) no-repeat ;
+	background-position:center;
+	height: 100%;
+	color: #fff;
+	position: relative;
+	background-size: 100% 100%;
+	z-index: 0;
+}
+.product1 .left .content .text{
+	width: 400px;
+	position: absolute;
+	left: calc(50% - 200px) ;
+	bottom: 20px;
+}
+.left .content h1{
+	font-size: 41px;
+}
+.left .content p{
+	font-size: 21px;
+}
+.left .content a{
+	text-decoration: none;
+	font-size: 17px;
+	color: #0070c9;
+}
+.left .content span{
+	margin-right: 20px;
+}
+.product1 .right .content{
+	background: url(../img/ipad_mini.jpg) no-repeat;
+	background-position:center bottom;
+	height: 100%;
+	color: #111;
+	position: relative;
+	background-size: 100% 60%;;
+	z-index: 0;
+}
+.product1 .right .content .text{
+	width: 400px;
+	position: absolute;
+	left: calc(50% - 200px) ;
+	top: 20px;
+}
+.right .content h1{
+	font-size: 41px;
+}
+.right .content p{
+	font-size: 21px;
+}
+.right .content span{
+	margin-right: 20px;
+}
+.right .content a{
+	text-decoration: none;
+	font-size: 17px;
+	color: #0070c9;
+}
+.product2{
+	width: 100%;
+	text-align: center;
+	z-index: 0;
+}
+.product2 .left .content{
+	background: url(../img/series_4_spring.jpg) no-repeat;
+	background-position:center;
+	height: 100%;
+	color: #111;
+	position: relative;
+	background-size: cover;
+	z-index: 0;
+}
+.product2 .left .content .text{
+	width: 400px;
+	position: absolute;
+	left: calc(50% - 200px) ;
+	top: 20px;
+}
+.product2 .right .content{
+	background: url(../img/imac.jpg) no-repeat;
+	background-position:center bottom;
+	height: 100%;
+	color: #111;
+	position: relative;
+	background-size: 100% 100%;
+	z-index: 0;
+}
+.product2 .right .content .text{
+	width: 400px;
+	position: absolute;
+	left: calc(50% - 200px) ;
+	top: 20px;
+}
+.product3{
+	width: 100%;
+	text-align: center;
+	z-index: 0;
+}
+.product3 .left .content{
+	background: url(../img/airpods_magic.jpg) no-repeat;
+	background-position:center;
+	height: 100%;
+	color: #111;
+	position: relative;
+	background-size: cover;
+	z-index: 0;
+}
+
+.product3 .left .content .text{
+	width: 400px;
+	position: absolute;
+	left: calc(50% - 200px) ;
+	top: 20px;
+}
+
+.product3 .right .content{
+	background: url(../img/apple_music.jpg) no-repeat;
+	background-position:center bottom;
+	height: 100%;
+	color: #eee;
+	position: relative;
+	background-size: cover;
+	z-index: 0;
+}
+.product3 .right .content .text{
+	width: 400px;
+	position: absolute;
+	left: calc(50% - 200px) ;
+	top: 20px;
+}
+.product3 .right .content #apple{
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	top:10px;
+	left:208px;
+}
+.product3 .right .content #apple_music{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	left: 290px;
+	bottom: 80px;
+}
+#footer{
+	position: relative;
+	margin-top: 1740px;
+	width: 100%;
+	height: 721px;
+	background-color: #DDDDDD;
+	opacity: 0.8;
+}
+#explain{
+	margin-left: 150px;
+	margin-right: 150px;
+
+}
+#explain p{
+	font-size: 8px;
+	color: #666666;
+}
+hr{
+	margin-top: 40px;
+}
+#connect{
+	margin-left: 150px;
+	margin-right: 150px;
+	height: 420px;
+}
+#connect .list{
+	width: 202px;
+	height: auto;
+	float: left;
+}
+#connect .list ul li{
+	list-style: none;
+	font-size: 9px;
+	line-height: 30px;
+}
+#copy{
+	margin-left: 150px;
+	margin-right: 150px;
+}
+#copy p{
+	font-size: 9px;
+	margin: 0;
+}
+hr{
+	margin: 0px;
 }
