@@ -1,0 +1,29 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1554203646260'); /* IE9 */
+  src: url('iconfont.eot?t=1554203646260#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAOYAAsAAAAAB9wAAANMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqDIIJ9ATYCJAMQCwoABCAFhG0HPxvmBsgeCeUmsh8UTFbe5NPr1Pf1pUSVw6AggkF2FNuRT1aBVZpw7Uw8LMhbgMeWR5pqHj5v72//xjNPI+7qbp5+wABzSlK57VyQlaiKmlAVkVIEhehK0pLQ/M8x45V4fqC5RCZFBI325s2tA4pqGsgO9A6kBemW4bUuhYPeDwQgiJON7K3dw+CxyDACIEu2GcFnZNiGSIJHeFXMTZAHHL5t5iOAi8HHkx+FwQMMroMc1H+0WFD/4XMm1T06pvuEPp0GgLwIoIBsAAvkrNSZ0MiZjRLMzqxSAI/HwFRN4udMjwczjsLj6b88gGIQIAMk3AcAFGMXhc/gtIQvggQM8DOB8QDhLADgIeQMgJsgophpzAw64Y9J8gneIww/eUzIemLwP49A6uF4Nubw8vCyIJ3vOcX33SRrzXBWmLjrA7yFnls5D9OfQl+Z1ZerbyZfLV5bGwvdT/7q6PLyMIS8Ky3+by2JM11Za3u1kgCf69LNZL/rt6M4/8DoemxiLARGkFNMXe51UP6+D2vLa21XOmIKAlOSplJix26mnz2pXzNl7EsMiXRfTm8eXn7xqqa5oa3XdeVCUsJI0a/vLYMkDx8yh2Vj+XgWmdh/YJJQsteOlKw7Otfe3o9+18xNT2aibhsY4PM5j9vHSQ9AwE38KFzIZFoUgOcdFaoDHp1Sxi/8HMjbv/Nz/vE3b2AAwPo7y/8gxaOzoAX8B3pn+g+jd8xgLSaRs2mwOM0+ipWPAgAGIBAAv8kLBNmdwhAKiYbgFToAw1ssULxkBIvJBo5BMXjh1YEgS9tig2AqiqQFkOkMAiLAA2D4eQJUgE8IFrMDnDC/wEtAUBCMhlvTIDVkIamSUZMsoumgKJuVJStTakIYOSjZ9jqMapoZYEcl1S1bxILc/LynTVqS1CkmuPfZCjXNKlpVxSm2osMkh0MRXaqyKJm13AVNc1Xm5VmrnpRrVpwQNFFJjDQSC5HJQSKZmWKJ1SuvEQrvP0his5eDkdqQ1iQdJVG5ya2LCuTK74Bo4y11SruVR9z2sSmk0ViJrFQKJ1Er0kgc1KkQuap7LZKYaXItDLC7VMrD2axdebnLC5xvuAJAQK5kQ5EmJgPvJUsm2ahw1eVySLQZbQA=') format('woff2'),
+  url('iconfont.woff?t=1554203646260') format('woff'),
+  url('iconfont.ttf?t=1554203646260') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1554203646260#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-liebiao:before {
+  content: "\e62a";
+}
+
+.icon-apple:before {
+  content: "\e620";
+}
+
+.icon-bag:before {
+  content: "\e600";
+}
+
