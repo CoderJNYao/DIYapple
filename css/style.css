@@ -1,9 +1,11 @@
 *{
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 html,body{
-	min-width: 1200px;
+	width: 100%;
+	height: 100%;
 	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
@@ -37,13 +39,13 @@ html,body{
 	background-color: #333;
 }
 #nav ul{
-	margin-left: 220px;
+	margin-left: 16%;
 }
 #nav ul li{
 	color: #eee;
 	list-style: none;
 	vertical-align: middle;
-	width: 108px;
+	width: 9%;
 	text-align: center;
 	float: left;
 	line-height: 44px;
@@ -53,9 +55,16 @@ html,body{
 #nav ul li img{
 	background-repeat: no-repeat;
 }
-/*#small_apple{
-	background: url(../img/open_graph_logo.png);
-}*/
+
+#small_apple:hover{
+	opacity: 0.65;
+}
+#search:hover{
+	opacity: 0.65;
+}
+#bag:hover{
+	opacity: 0.65;
+}
 #ins{
 
 }
@@ -137,6 +146,9 @@ html,body{
 	margin: 0 auto;
 	line-height: 25px;
 	font-size: 17px;
+}
+.ipod_air_introduction a{
+	text-decoration: none;
 }
 .ipod_air_introduction a:hover{
 	text-decoration: underline;
@@ -318,12 +330,9 @@ html,body{
 	left: calc(50% - 200px) ;
 	top: 20px;
 }
-.product3 .right .content #apple{
-	width: 80px;
-	height: 80px;
-	position: absolute;
-	top:10px;
-	left:208px;
+.product3 .right .content .apple{
+	font-size: 38px;
+	color: #fff;
 }
 .product3 .right .content #apple_music{
 	width: 60px;
@@ -403,4 +412,161 @@ html,body{
 }
 hr{
 	margin: 0px;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('iconfont.eot');
+  src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+      url('iconfont.woff2') format('woff2'),
+      url('iconfont.woff') format('woff'),
+      url('iconfont.ttf') format('truetype'),
+      url('iconfont.svg#iconfont') format('svg');
+}
+
+@media only screen and (max-width:640px){
+	
+	.iconfont {
+ 	 	font-family: "iconfont" !important;
+  		font-size: 16px;
+  		font-style: normal;
+  		-webkit-font-smoothing: antialiased;
+  		-moz-osx-font-smoothing: grayscale;
+	}
+	
+	html,body{
+		box-sizing: border-box;
+	}
+	
+	#header{
+		display: none;
+		margin: 0px;
+		border: 0px;
+	}
+	.mnav{
+		display: block;
+		position: relative;
+		width: 100%;
+		height: 44px;
+		text-align: center;
+	}
+	.mnav a{
+		width: 44px;
+		height: 44px;
+		text-decoration: none;
+		color: #fff;
+	}
+	.mnav .liebiao{
+		width: 44px;
+		height: 44px;
+		float: left;
+		color: #fff;
+		line-height: 44px;
+	}
+	.mnav .apple{
+		width: 44px;
+		height: 44px;
+		margin:  0 auto;
+		color: #fff;
+		line-height: 44px;
+	}
+	.mnav .bag{
+	width: 44px;
+		height: 44px;
+		float: right;
+		color: #fff;
+		line-height: 44px;
+	}
+	#nav ul{
+		display: none;
+	}
+	.huangou{
+		top:44px;
+		width: 100%;
+		height: auto;
+	}
+	.iphone_xr_introduction{
+		width: 100%;
+		height: 569px;
+		background-image: url(../img/iphone_xr.jpg);
+		background-position: center bottom;
+		background-repeat: no-repeat;
+	}
+	.iphone_xs_introduction{
+		width: 100%;
+		height: 569px;
+		background-image: url(../img/iphone_xs.jpg);
+		background-position: center bottom;
+		background-repeat: no-repeat;
+	}
+	.ipod_air_introduction{
+		width: 100%;
+		height: 569px;
+		background-image: url(../img/ipad_air.jpg);
+		background-position: center bottom;
+		background-repeat: no-repeat;
+	}
+	.left{
+	float: none;
+	padding: 0px;
+	width: 100%;
+	}
+	.right{
+	float: none;
+	width:100%;
+	padding: 0px;
+	}
+	.product1 .left .content .text{
+		width: 100%;
+	}
+	.product1 .right .content .text{
+		width: 100%;
+	}
+	.product2 .left .content .text{
+		width: 100%;
+	}
+	.product2 .right .content .text{
+		width: 100%;
+	}
+	.product3 .left .content .text{
+		left: calc(50% - 187.5px) ;
+		width: 100%;
+	}
+	.product3 .right .content .text{
+		left: calc(50% - 187.5px) ;
+		width: 100%;
+	}
+	.product3 .right .content #apple{
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	top:10px;
+	left:70px;
+	}
+	.product3 .right .content #apple_music{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	left: calc(50% - 30px); 
+	bottom: 80px;
+	}
+	#explain{
+		margin: 0px;
+		padding:10px
+	}
+	#connect{
+		float: none;
+		height: auto;
+		margin: 0px;
+		padding: 10px;
+	}
+	#connect .list{
+		float: none;
+	}
+	#connect .list ul{
+		display: none;
+	}
+	#copy{
+		margin:0px;
+		padding: 10px;
+	}
 }
